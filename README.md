@@ -28,18 +28,26 @@ Data model
 * Total Revenue and Quantity
 
 The total store revenue over five years is $2,328.60, with a total of 2,240 products sold.
+![image](https://github.com/user-attachments/assets/8454f655-2bfc-487a-88a0-e9cf3b88df1a)
+
 
 * Sales and Quantity by Year
 
 The store's total revenue and sales volume fluctuated over the years, experiencing periods of growth followed by declines, rather than demonstrating consistent growth.
+![image](https://github.com/user-attachments/assets/48c051ac-1515-4873-ad83-788d9af465b9)
+
 
 * Revenue and Quantity by Genre
 
 Rock, Latin, Metal, Alternative & Punk, and TV Shows remain the store's best-selling product genres. Notably, Rock leads sales by a significant margin, generating $826.65, while Latin, the second-highest, records $382.14.
+![image](https://github.com/user-attachments/assets/51c1a26d-376c-4e5b-862f-f5e8f1174918)
+
 
 * Revenue and Quantity by Media Type
 
 The MPEG format (audio storage) is the most preferred format among customers, generating $1,958.24, compared to $220.89 for MPEG-4 (video storage). This indicates a stronger customer preference for audio storage formats.
+![image](https://github.com/user-attachments/assets/c99dfa80-cc2e-4136-b51e-2c44ad44dfb7)
+
 
 Meanwhile, Purchased AAC and AAC formats are declining in popularity, with only 4 and 3 units sold, respectively, over the five-year period.
 
