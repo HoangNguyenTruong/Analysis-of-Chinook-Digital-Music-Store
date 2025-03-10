@@ -15,54 +15,79 @@ The data is publicly available through Kaggle under https://github.com/msimanga/
 
 The dataset records system data of a digital music store, containing information on customers, orders, artists, albums, tracks, and employees. The data was collected in 5 years,  during the period from January 1, 2009, to December 22, 2013.
 
-Table description
 
-Data model 
+Data model
+![image](https://github.com/user-attachments/assets/0a84e1cf-88cb-441e-8778-f53c14a74b70)
+
+
 
 ## Analyze
+
 **Sales**
 
-* Total Revenue, Quantity
-Tổng doanh thu của cửa hàng trong 5 năm là 2328,60 và tổng số lượng sản phẩm đã bán ra là 2240.
-* Sales, Quantity by year
-Tổng doanh thu và số lượng hàng bán ra của cửa hàng theo các năm biến động cứ tăng xong rồi giảm chứ không hề có sự tăng trưởng ổn định.
-* Revenue, Quantiy by genere
-Rock, Latin, Metal, Alternative & Punk và TV Shows vẫn là những thể loại sản phẩm bán chạy của cửa hàng. Đặc biệt là thể loại nhạc Rock dẫn đầu về doanh số với khoảng cách bỏ xa các thể loại còn lại với doanh số 826,65$ với 382,14$ của Latin đứng thứ 2. 
-* Revenue, Quantiy by media type
-Định dạng MPEG (lưu trữ audio) vẫn là thể loại được ưa chuộng nhất khi đi mua của khách hàng với doanh số là 1958,24 so với 220,89 của định dạng MPEG-4 (lưu trữ video). Điều này cho thấy khách hàng có xu hướng mua định dạng lưu trữ audio hơn. Định dạng Purchased AAC và AAC đang ngày càng bị khách hàng rời bỏ khi chỉ có số lượng bán ra lần lượt là 4 và 3 trong giai đoạn 5 năm
-* Revenue and quantity by country
-Hoa Kỳ có doanh thu vượt trội so với các quốc gia khác, gần gấp đôi so với Canada (quốc gia đứng thứ hai). Điều này cho thấy Hoa Kỳ là thị trường quan trọng nhất. Các thị trường lớn: Canada, Pháp, Brazil và Đức cũng là những thị trường lớn, đóng góp đáng kể vào tổng doanh thu. Các quốc gia còn lại có doanh thu tương đối thấp, cho thấy tiềm năng phát triển thị trường ở những khu vực này.
-* Revenue and quantity by track (top hits), by artits (top artist)
-Dazed and Confused, The Trooper là những đĩa nhạc có doanh thu lớn với 5 bản được bán ra. Còn IronMaiden là nghệ sĩ với doanh số lớn nhất với 138,60 và số lượng đĩa nhạc bán ra là 140. 
+* Total Revenue and Quantity
 
+The total store revenue over five years is $2,328.60, with a total of 2,240 products sold.
+
+* Sales and Quantity by Year
+
+The store's total revenue and sales volume fluctuated over the years, experiencing periods of growth followed by declines, rather than demonstrating consistent growth.
+
+* Revenue and Quantity by Genre
+
+Rock, Latin, Metal, Alternative & Punk, and TV Shows remain the store's best-selling product genres. Notably, Rock leads sales by a significant margin, generating $826.65, while Latin, the second-highest, records $382.14.
+
+* Revenue and Quantity by Media Type
+
+The MPEG format (audio storage) is the most preferred format among customers, generating $1,958.24, compared to $220.89 for MPEG-4 (video storage). This indicates a stronger customer preference for audio storage formats.
+
+Meanwhile, Purchased AAC and AAC formats are declining in popularity, with only 4 and 3 units sold, respectively, over the five-year period.
+
+* Revenue and Quantity by Country
+
+The United States significantly outperforms other countries in revenue, nearly doubling that of Canada, the second-highest market. This highlights the U.S. as the store’s most critical market.
+Other major markets include Canada, France, Brazil, and Germany, which contribute substantially to total revenue. In contrast, other countries generate relatively low revenue, indicating potential opportunities for market expansion.
+
+* Revenue and Quantity by Track (Top Hits) and Artist (Top Artists)
+
+"Dazed and Confused" and "The Trooper" are among the top-selling tracks, each selling 5 copies.
+Iron Maiden ranks as the highest-grossing artist, generating $138.60 in revenue with 140 tracks sold.
 
 **Product**
-* Overview about product and artist
-Cửa hàng hiện đang kinh doanh 347 Albums với số lượng đĩa nhạc là 3503. Số lượng album có nhiều đĩa nhạc nhất với 57 đĩa nhạc. Số lượng ca sĩ hợp tác với của hàng nhạc của doanh nghiệp lên tới 275 ca sĩ. Các sản phẩm của cửa hàng trải dài trên 25 thể loại.
 
-* Millisecond of track
-Thời gian trung bình là 393599 milisec với ngắn nhất của một đĩa nhạc là 1071 milisec còn nhiều nhất là 5286953 milisec
+* Overview of Products and Artists
 
-* Storage of track
-Một đĩa nhạc có dung lượng lưu trữ trung bình là 33510207 với nhỏ nhất là 38747 bytes và nhiều nhất là 10595546140 bytes. 
+The store currently offers 347 albums, with a total of 3,503 tracks.
+The album with the highest number of tracks contains 57 tracks.
+A total of 275 artists have collaborated with the store, with products spanning across 25 genres.
+
+* Track Duration (Milliseconds)
+
+The average track duration is 393,599 milliseconds, with the shortest track being 1,071 milliseconds and the longest being 5,286,953 milliseconds.
+
+* Track Storage Size
+
+The average track storage size is 33,510,207 bytes, with the smallest track at 38,747 bytes and the largest at 10,595,546,140 bytes.
 
 **Customer**
-* Retention rate: 
-Tỷ lệ khách hàng quay lại trong 5 năm qua là 100%. Điều này cho thấy tỷ lệ giữ chân các khách hàng thân thiết của cửa hàng đang rất tốt. Tuy nhiên cần xem xét vào Customer lifetime value (CLV)
 
-* Customer lifetime value: 
-CLV của khách hàng trong giai đoạn này được tách ra thành hai nhóm là giá trị cao và trung bình. Đối với nhóm khách hàng giá trị CLV cao (trên 40), cần được chăm sóc đặc biệt. Đặc biết là với khách hàng Helena Holý có giá trị CLV cao nhất (49.62). Còn với nhóm khách hàng giá trị trung bình thì lại đang chiếm phần lớn (khoảng 39). 
-## Share 
-below you will find a picture of the interactive dashboard that represents the sales and information on the collected sales data which was realized and demonstrated with PowerBI.
+* Retention Rate
+
+The customer retention rate over the past five years is 100%, indicating strong customer loyalty. However, further evaluation of Customer Lifetime Value (CLV) is needed.
+
+* Customer Lifetime Value (CLV)
+
+Customers are categorized into high-value and medium-value groups based on their CLV.
+
+High-value customers (CLV > 40) require special attention, particularly Helena Holý, who holds the highest CLV at 49.62.
+Medium-value customers constitute the majority, with an average CLV of approximately 39.
+
+## Share
+Onto sharing our observations, below you will find a picture of the interactive dashboard that represents the sales and information on the collected music store data which was realized and demonstrated with PowerBI.
+![image](https://github.com/user-attachments/assets/5b681df7-c62d-4d44-894e-0ddeff93a472)
+
 ## Act
-** Sales Strategy **
-
-* Revenue and Sales Growth
-
-Implement year-round marketing campaigns to stabilize revenue growth instead of experiencing fluctuating sales trends.
-
-Identify seasonal trends and optimize pricing strategies during peak periods.
-
+**Sales Strategy**
 * Genre-Based Sales Optimization
 
 Expand the inventory and promotions for the top-performing genres: Rock, Latin, Metal, Alternative & Punk, and TV Shows.
@@ -91,29 +116,25 @@ Promote Iron Maiden, the highest-selling artist, by offering exclusive merchandi
 
 Increase visibility for top-performing tracks like Dazed and Confused and The Trooper through featured playlists and discounts.
 
-** Product Strategy **
+**Product Strategy**
 
-Catalog Expansion and Management
+* Catalog Expansion and Management
 
 Diversify the album collection while maintaining quality control to ensure sustained customer interest.
 
 Optimize pricing and marketing strategies for high-selling albums.
 
-Track Duration and Storage Optimization
+* Track Duration and Storage Optimization
 
 Analyze listener behavior to determine the ideal track length and storage requirements.
 
 Implement cloud-based storage solutions to optimize costs while maintaining high-quality audio and video files.
 
-** Customer Strategy **
-
-Customer Retention and Loyalty Programs
+**Customer Strategy**
 
 Leverage the 100% retention rate by introducing loyalty rewards and subscription-based benefits.
 
 Implement personalized marketing strategies to enhance customer engagement.
-
-Customer Lifetime Value (CLV) Management
 
 Prioritize high CLV customers (>40) with exclusive offers, early access to new releases, and VIP memberships.
 
@@ -121,7 +142,7 @@ Improve engagement with mid-range CLV customers (~39) through targeted promotion
 
 Develop customer segmentation strategies to maximize lifetime value and enhance customer satisfaction.
 
-Conclusion
+**Conclusion**
 
 By implementing these strategic actions, the company can stabilize sales growth, optimize product offerings, expand market reach, and enhance customer engagement. A data-driven approach to marketing, inventory management, and customer relationship management will drive long-term success and revenue growth.
 ## Limitation
